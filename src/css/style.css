@@ -1,9 +1,11 @@
 #map-canvas{
-	
-	height:700px;
-	width:800px;
+	position: fixed !important;
+	height: calc(100% - 50px);
+	width:100%;
+	top:50px;
 }
 .request{
-	height:200px;
+	position: fixed;
+	height:50px;
 	width:100%;
 }

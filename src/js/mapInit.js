@@ -14,6 +14,7 @@ function initialize() {
                                        position.coords.longitude);
 
       		map.setCenter(pos);
+          getCrimes();
     	}, function() {
       handleNoGeolocation(map);
     });
