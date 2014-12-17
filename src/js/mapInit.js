@@ -35,7 +35,7 @@ function handleNoGeolocation(map) {
 function loadScript() {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' + 'callback=initialize';
+  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=visualization&' + 'callback=initialize';
   document.body.appendChild(script);
 }
 

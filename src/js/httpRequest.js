@@ -8,20 +8,10 @@ $( document ).ready(function() {
 		    	radius: 100
 		    },
 		    function(data) {
-				mapData(data);	    	
+				heatMapper(data);	    	
 		    });
 	});
 });
-
-function mapData(data){
-	var mappedData,i,
-		max_length=data.length;
-
-	for(i=0;i<max_length;i++)
-	{
-
-	}
-}
 
 
 
